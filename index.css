@@ -1060,13 +1060,14 @@ footer {
         border-bottom: 2px solid #fff;
     }
     .fotterlist1 ul {
-        /* max-height: 0px;
-        overflow: hidden; */
+        max-height: 0px;
+        overflow: hidden;
         display: none;
+        transition: ease 0.9s ease-in-out;
     }
     .fotterlist1 ul.active {
-       display: block;
-        /* transition: all .5s ease-in-out; */
+         max-height: fit-content;
+         transform: scale(1.04);
     }
     .fotterlist1 h3.active {
         color: red;

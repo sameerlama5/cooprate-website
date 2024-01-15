@@ -1062,14 +1062,24 @@ footer {
     .fotterlist1 ul {
         max-height: 0px;
         overflow: hidden;
-        display: none;
-        transition: ease 0.9s ease-in-out;
     }
     .fotterlist1 ul.active {
          max-height: fit-content;
-         transform: scale(1.04);
+         
     }
     .fotterlist1 h3.active {
         color: red;
+    }
+}
+@media(min-width:769px) and (max-width:1024px) {
+    .footercontainer {
+        flex-direction: column;
+    }
+    .footerfirstcontent h1{
+        width: 100%;
+        font-size: 24px;
+    }
+    .fotterlist1 h3 {
+        padding-bottom: 20px;
     }
 }

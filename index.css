@@ -487,6 +487,7 @@ label {
     .list ul li a.active{
         padding: 0px 0px 19px 0px;
         border-bottom: none;
+        color: red;
       }
       .tab-flex1 {
         padding: 0;
@@ -508,10 +509,6 @@ label {
       }
       .tab-image img {
         width: 100%;
-      }
-     .list ul li a .fa-less-than.active {
-        display: block;
-        color: red;
       }
 
 }
@@ -656,8 +653,422 @@ label {
         width: 100%;
       }
       .list ul li a.active{
-    padding: 0px 0px 19px 0px;
-    border-bottom: 5px solid red;
-    
-  }
+        padding: 0px 0px 19px 0px;
+        border-bottom: 5px solid red;
+        
+      }
+}
+.women-one {
+    position: relative;
+}
+.women-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+.women-text {
+    position: absolute;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 25%;
+    top: 30%;
+    right: 10%;
+
+}
+.women-text h2 {
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 500;
+}
+.women-text p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.women-text a {
+    text-decoration: none;
+    color: red;
+}
+.men-one {
+    position: relative;
+}
+.men-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+.men-text {
+    height: auto;
+    position: absolute;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 25%;
+    top: 30%;
+    right: 10%;
+
+}
+.men-text h2 {
+    line-height: 1.5;
+    font-size: 36px;
+    font-weight: 500;
+}
+.men-text p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.men-text a {
+    text-decoration: none;
+    color: red;
+}
+@media(max-width:768px) {
+    .over {
+        padding-top: 275px;
+    }
+    .women-image {
+        width: 100%;
+    }
+    .men-image {
+        width: 100%;
+    }
+    .women-text {
+        box-shadow: 0px 0px 10px 2px#aaaaaa;
+        margin-top: 80px;
+        right: 0%;
+        width: 100%;
+    }
+    .men-text{
+        box-shadow: 0px 0px 10px 2px#aaaaaa;
+        margin-top: 80px;
+        right: 0%;
+        width: 100%;
+    }
+    .women-text h2 p a {
+        width: 100%;
+    }
+    .men-text h2 p a {
+        width: 100%;
+    }
+    .women-text h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .men-text h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+@media(min-width:769px) and (max-width:1024px) {
+    .women-image {
+        width: 100%;
+    }
+    .men-image {
+        width: 100%;
+    }
+    .women-text {
+       min-width: 47%;
+        top: 20%;
+        right: 10%;
+        bottom: 20%;
+    }
+    .men-text {
+        min-width: 55%;
+         top: 20%;
+         right: 10%;
+         bottom: 20%;
+     }
+    .women-text a {
+        width: 100%;
+    }
+    .men-text a {
+        width: 100%;
+    }
+    .women-text p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .men-text p {
+        width: 100%;
+    }
+    .women-text h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .men-text h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+@media(min-width:1025px) {
+    .women-image {
+        width: 100%;
+    }
+    .men-image {
+        width: 100%;
+    }
+    .women-text {
+        width: 25%;
+        top: 10%;
+        right: 10%;
+        bottom: 10%;
+    }
+    .men-text {
+        width: 35%;
+        top: 10%;
+        right: 10%;
+        bottom: 10%;
+    }
+    .women-text a {
+        width: 100%;
+    }
+    .men-text a {
+        width: 100%;
+    }
+    .men-text p {
+        width: 100%;
+    }
+    .women-text h2 {
+        width: 100%;
+    }
+    .men-text h2 {
+       width: 100%;
+    }
+}
+.same {
+    margin-top: 250px;
+}
+.child-flex {
+    margin: 0px 20px 0px 0px;
+    box-shadow: 0px 0px 10px 2px#aaaaaa;
+    padding: 50px 60px 50px 50px;
+    border-radius: 20px;
+    width: 100%;
+}
+.para-empower h2 {
+    /* padding-top: 40px; */
+    font-size: 36px;
+    margin: 0px 0px 12px;
+}
+.para-empower p {
+    margin-bottom: 25px;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.para-empower a {
+    color: red;
+    text-decoration: none;
+}
+.ovalmenimage img {
+    width: 100%;
+    border-radius: 50%;
+}
+.heart {
+    margin: 0px 0px 0px 20px;
+    box-shadow: 0px 0px 10px 2px#aaaaaa;
+    padding: 50px 40px;
+    border-radius: 20px;
+    width: 40%;
+}
+.heart h2 {
+    font-size: 36px;
+    margin: 0px 0px 12px;
+}
+.heart p {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.heart a {
+    color: red;
+    text-decoration: none;
+}
+@media(max-width:768px) {
+    .future-flex {
+        flex-direction: column;
+    }
+    .child-flex {
+        margin: 0px 0px 32px;
+        padding: 40px 25px 40px 25px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .para-empower h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .para-empower p {
+        width: 100%;
+    }
+    .para-empower a {
+        padding: 10px 16px 10px 0px;
+        
+    }
+    .ovalmenimage {
+        text-align: center;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .ovalmenimage img {
+        width: 250px;
+    }
+    .heart {
+        margin: 0;
+        width: 100%;
+    }
+    .heart h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .heart a {
+        font-size: 15px;
+    }
+}
+@media(min-width:769px) and (max-width:1024px) {
+    .future-flex {
+        flex-direction: column;
+    }
+    .child-flex {
+        margin: 0px 0px 32px;
+        padding: 40px 62.35px;
+        width: 100%;
+    }
+    .para-empower {
+        width: 100%;
+    }
+    .para-empower h2 {
+        width: 100%;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .para-empower p {
+        width: 100%;
+    }
+    .para-empower a {
+        width: 100%;
+        padding: 10px 16px 10px 0px;
+        
+    }
+    .ovalmenimage {
+        /* padding-left: 200px; */
+        width: 100%;
+    }
+    .ovalmenimage img {
+        width: 250px;
+    }
+    .heart {
+        margin: 0;
+        width: 100%;
+    }
+    .heart h2 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .heart a {
+        font-size: 16px;
+    }
+}
+@media(min-width:1025px) {
+    .child-flex {
+        padding: 50px 60px 50px 50px;
+        width: 100%;
+    }
+    .para-empower {
+        width: 100%;
+    }
+    .para-empower h2 {
+        width: 100%;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .para-empower p {
+        width: 100%;
+    }
+    .para-empower a {
+        width: 100%;
+        padding: 10px 16px 10px 0px;
+        
+    }
+    .ovalmenimage {
+        width: 100%;
+    }
+    .ovalmenimage img {
+        max-width: 100%;
+    }
+    .heart {
+        width: 40%;
+    }
+    .heart h2 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .heart a {
+        font-size: 16px;
+    }
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+}
+.footerfirstcontent h1 {
+    margin-top: 60px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.footerseccontent h1 {
+    margin-top: 60px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.top1 label {
+    color: #fff;
+}
+.fotterlist1 h3 {
+    color: #fff;
+    font-size: 16px;
+}
+.fotterlist1 ul {
+    margin-right: 50px;
+    padding: 0;
+}
+.fotterlist1 ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+.fotterlist1 ul li a {
+    color: #fff;
+}
+@media(max-width:768px) {
+    .footercontainer {
+        flex-direction: column;
+    }
+    .footerfirstcontent h1{
+        width: 100%;
+        font-size: 24px;
+    }
+    .footerlistcontent {
+        flex-direction: column;
+    }
+    .fotterlist1 h3 {
+        padding-bottom: 20px;
+        border-bottom: 2px solid #fff;
+    }
+    .fotterlist1 ul {
+        /* max-height: 0px;
+        overflow: hidden; */
+        display: none;
+    }
+    .fotterlist1 ul.active {
+       display: block;
+        /* transition: all .5s ease-in-out; */
+    }
+    .fotterlist1 h3.active {
+        color: red;
+    }
 }
